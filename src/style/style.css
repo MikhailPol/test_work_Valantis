@@ -67,8 +67,6 @@ body {
   right: 2px;
 }
 
-
-
 .btn-wrapper__button--next,
 .btn-wrapper__button--prev {
   position: fixed;
@@ -116,7 +114,7 @@ body {
   0% {opacity: 0.5;}
   50% {opacity: 0.2;}
   100% {opacity: 0.5;}
-};
+}
 
 @media (max-width: 300px) {
   .wrapper__item {
