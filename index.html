@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test work Valantis</title>
+  </head>
+  <body>
+    <header class="header" id="start">
+        <nav class="header__nav">
+          <div class="search-brand">
+            <p class="search-brand__desc">Фильтр по бренду:</p>
+            <select name="brand" id="brand" aria-placeholder="asdasasdasd">
+              <option value="" disabled>Выберете бренд</option>
+            </select>
+            <button class="filter-brand">Найти</button>
+          </div>
+          <div class="search-price">
+            <p class="search-price__desc">Фильтр по цене:</p>
+            <input id ="input_price" type="number" placeholder="Введите цену">
+            <button class="filter-price">Найти</button>
+          </div>
+          <div class="search-name">
+            <p class="search-name__desc">Фильтр по названию</p>
+            <input id="input_name" type="text" placeholder="Введите название" required>
+            <button class="filter-name">Найти</button>
+          </div>
+          <div class="search-reset">
+            <p class="search-reset__desc">Сбросить фильтры</p>
+            <button class="filter-reset">Сбросить</button>
+          </div>
+        </nav>
+    </header>
+    <button class="btn-wrapper__button--prev">PREV</button>
+    <button class="btn-wrapper__button--next">NEXT</button>
+    <ul class="wrapper"></ul>
+    <script type="module" src="./src/JS/main.js"></script>
+  </body>
+</html>
